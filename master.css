@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-size: 20px;
+}
+
+button{
+  margin: 10px;
+}
+
+table {
+  margin: auto;
+  font-size: 20px;
+}
+
+.m1 {
+  background: #fffeb1;
+  padding: 20px;
+}
+.m2 {
+  background: #b1ffc7;
+}
+.m3 {
+  background: #ecbf5a;
+}
+.m4 {
+  background: #ff9781;
+}
+.m5 {
+  background: #fe6a64;
+}
+.m6 {
+  background: #ff3232;
+}

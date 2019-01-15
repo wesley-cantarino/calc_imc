@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc IMC</title>
+
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <p>Peso(kg):</p>
+    <input type="number" name="peso" value="">
+
+    <p>Altura(m):</p>
+    <input type="float" name="altura" value="">
+
+    <br>
+    <button type="button" name="calc" onclick="function_button()">Calcular</button>
+
+    <p id="resul"></p>
+
+    <br>
+    <table>
+      <tr>
+        <td>IMC</td>
+        <td>Classificação</td>
+      </tr>
+
+      <tr class="m1">
+        <td><18.5</td>
+        <td>Magreza</td>
+      </tr>
+
+      <tr class="m2">
+        <td>18.5 a 24.9</td>
+        <td>Saudável</td>
+      </tr>
+
+      <tr class="m3">
+        <td>25.0 a 29.9</td>
+        <td>Sobrepeso</td>
+      </tr>
+
+      <tr class="m4">
+        <td>30.0 a 34.9</td>
+        <td>Obesidade grau I</td>
+      </tr>
+
+      <tr class="m5">
+        <td>35.0 a 39.9</td>
+        <td>Obesidade grau I</td>
+      </tr>
+
+      <tr class="m6">
+        <td>>40.0</td>
+        <td>Obesidade grau III</td>
+      </tr>
+    </table>
+
+  </body>
+</html>
