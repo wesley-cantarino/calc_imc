@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc IMC</title>
+
+    <link rel="stylesheet" href="master.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <p class="title">IMC é a sigla para Índice de Massa Corporal(ou Body mass index (BMI)) que serve para avaliar o peso do indivíduo em relação à sua altura e assim indicar se está dentro do peso ideal, acima ou abaixo do peso desejado.</p>
+      <hr>
+
+      <p>Peso(kg):</p>
+      <input type="number" name="peso" value="">
+
+      <p>Altura(m):</p>
+      <input type="float" name="altura" value="">
+
+      <br>
+      <button type="button" name="calc" onclick="function_button()">Calcular</button>
+
+      <p id="resul"></p>
+
+      <p id="avi_p"></p>
+      <p id="avi_a"></p>
+
+      <br>
+      <table>
+        <tr>
+          <td>IMC</td>
+          <td>Classificação</td>
+        </tr>
+
+        <tr>
+          <td class="m1"><18.5</td>
+          <td class="m1">Magreza</td>
+        </tr>
+
+        <tr>
+          <td class="m2">18.5 a 24.9</td>
+          <td class="m2">Saudável</td>
+        </tr>
+
+        <tr>
+          <td class="m3">25.0 a 29.9</td>
+          <td class="m3">Sobrepeso</td>
+        </tr>
+
+        <tr>
+          <td class="m4">30.0 a 34.9</td>
+          <td class="m4">Obesidade grau I</td>
+        </tr>
+
+        <tr class="m5">
+          <td class="m5">35.0 a 39.9</td>
+          <td class="m5">Obesidade grau I</td>
+        </tr>
+
+        <tr>
+          <td class="m6">>40.0</td>
+          <td class="m6">Obesidade grau III</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>
